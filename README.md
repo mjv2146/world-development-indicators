@@ -1,2 +1,2 @@
-# world_development_indicators
-Analysis of World Development Indicators
+# World Development Indicators
+- This project studies World Development Indicators using SQL and Tableau
