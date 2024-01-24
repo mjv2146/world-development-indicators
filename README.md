@@ -2,7 +2,7 @@
 - This project studies the World Bank World Development Indicators dataset using SQL
 
 ### Data
-- [World Indicators Dataset](https://console.cloud.google.com/marketplace/product/the-world-bank/wdi) on Google Cloud
+- [World Development Indicators Dataset](https://console.cloud.google.com/marketplace/product/the-world-bank/wdi) on Google Cloud
 
 ### Notebooks
 - 01_get_codes.ipynb: get list of codes in WDI database
