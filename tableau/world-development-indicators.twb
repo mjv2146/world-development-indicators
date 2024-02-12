@@ -22,7 +22,7 @@
     <WindowsPersistSimpleIdentifiers />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='world-development-indicators' path='/workbooks' revision='1.8' />
+  <repository-location id='world-development-indicators' path='/workbooks' revision='1.9' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -1532,8 +1532,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='127' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97184' id='126' param='vert' type-v2='layout-flow' w='98438' x='781' y='1408'>
+            <zone h='100000' id='133' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97184' id='132' param='vert' type-v2='layout-flow' w='98438' x='781' y='1408'>
                 <zone h='7394' id='39' type-v2='title' w='98438' x='781' y='1408'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1682,8 +1682,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='44' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97334' id='43' param='vert' type-v2='layout-flow' w='98400' x='800' y='1333'>
+            <zone h='100000' id='50' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='49' param='vert' type-v2='layout-flow' w='98400' x='800' y='1333'>
                 <zone h='18000' id='8' mode='dropdown' name='Split by Income Group' param='[federated.0tepr65120teal1djjkvp1d2gxkc].[none:Indicator:nk]' show-all='false' type-v2='filter' w='16000' x='83200' y='9999'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1805,8 +1805,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='46' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97334' id='45' param='vert' type-v2='layout-flow' w='98400' x='800' y='1333'>
+            <zone h='100000' id='52' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='51' param='vert' type-v2='layout-flow' w='98400' x='800' y='1333'>
                 <zone h='18000' id='8' mode='dropdown' name='Split by Region' param='[federated.0tepr65120teal1djjkvp1d2gxkc].[none:Indicator:nk]' show-all='false' type-v2='filter' w='16000' x='83200' y='9999'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1996,8 +1996,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='121' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97334' id='120' param='vert' type-v2='layout-flow' w='98400' x='800' y='1333'>
+            <zone h='100000' id='127' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='126' param='vert' type-v2='layout-flow' w='98400' x='800' y='1333'>
                 <zone h='7000' id='26' type-v2='title' w='82400' x='800' y='1333'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2068,7 +2068,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Sheet World Map'>
+    <window class='worksheet' name='Sheet World Map'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2387,9 +2387,9 @@
       <active id='-1' />
       <simple-id uuid='{EB9154B5-654B-4651-899F-0E258C756840}' />
     </window>
-    <window class='dashboard' name='Story 1'>
+    <window class='dashboard' maximized='true' name='Story 1'>
       <viewpoints />
-      <active id='5' />
+      <active id='4' />
       <simple-id uuid='{7807C675-A4F8-4A7C-B8A6-67F9A792B2C0}' />
     </window>
     <window class='dashboard' name='D: Split by Region'>
@@ -2432,9 +2432,9 @@
         <pair execution-subgraph-guid='2e655323-4a0b-421b-9c18-a50d5220d532' node-guid='69414672-a0a5-429f-ae76-362912d30f1e' />
       </node-execution-subgraphs>
       <nodes>
-        <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.0tepr65120teal1djjkvp1d2gxkc].[sum:Calculation_1330180420912336899:qk]' node-guid='69414672-a0a5-429f-ae76-362912d30f1e' orientation='vertical' sheet-identifier='{EDE8CF14-7168-4F4C-8CD6-8F5AE26200BC}' title-input-guid='e3cc8c0d-5d9e-4456-96ad-b143b8232393' />
-        <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.0tepr65120teal1djjkvp1d2gxkc].[sum:Calculation_1330180420912336899:qk]' node-guid='06e6e26d-c6dd-43c2-b886-a40f605575e0' orientation='vertical' sheet-identifier='{C2D8093D-6683-4059-A709-F2CEA544081A}' title-input-guid='671fe562-9c42-4d96-9928-a060a1f4cf28' />
         <_.fcp.DatagraphNodeSingleValueFieldV1.true...single-value-field-node fieldname='[federated.0tepr65120teal1djjkvp1d2gxkc].[Calculation_1330180420913434628]' fieldname-input-guid='9f366a3a-c633-4301-88da-f64f3c86131c' node-guid='d4f4b6d8-08c8-4bce-b67d-fb1494846a6b' value-output-guid='853ce8f8-ef51-4205-bce2-cfb13159be9f' />
+        <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.0tepr65120teal1djjkvp1d2gxkc].[sum:Calculation_1330180420912336899:qk]' node-guid='06e6e26d-c6dd-43c2-b886-a40f605575e0' orientation='vertical' sheet-identifier='{C2D8093D-6683-4059-A709-F2CEA544081A}' title-input-guid='671fe562-9c42-4d96-9928-a060a1f4cf28' />
+        <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.0tepr65120teal1djjkvp1d2gxkc].[sum:Calculation_1330180420912336899:qk]' node-guid='69414672-a0a5-429f-ae76-362912d30f1e' orientation='vertical' sheet-identifier='{EDE8CF14-7168-4F4C-8CD6-8F5AE26200BC}' title-input-guid='e3cc8c0d-5d9e-4456-96ad-b143b8232393' />
       </nodes>
       <edges>
         <edge from='853ce8f8-ef51-4205-bce2-cfb13159be9f' to='671fe562-9c42-4d96-9928-a060a1f4cf28' />
