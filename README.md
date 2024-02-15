@@ -24,7 +24,3 @@ This project studies the World Bank World Development Indicators dataset using S
 ### [Tableau Dashboard](https://public.tableau.com/app/profile/mitchell.vaughn4481/viz/world-development-indicators/Story1?publish=yes)
 
 ![screenshot](./fig/tableau_screenshot.png)
-
-### Tools
-- SQL - data retrieval and exploratory data analysis
-- Tableau - data visualization
